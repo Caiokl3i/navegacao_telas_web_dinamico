@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Este projeto foi desenvolvido como parte do meu processo de aprendizagem, combinando conhecimentos adquiridos na faculdade, na escola e de forma autodidata. Consiste em uma aplicação web simples, criada com Flask, que refaz telas em HTML e CSS e implementa navegação entre quatro grupos de telas.
+Este projeto foi desenvolvido como parte do meu processo de aprendizagem, combinando conhecimentos adquiridos na faculdade e de forma autodidata. Consiste em uma aplicação web simples, criada com Flask, que refaz telas em HTML e CSS e implementa navegação entre quatro grupos de telas.
 
 ## Tecnologias Utilizadas
 
