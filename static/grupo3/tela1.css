@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #808080;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 90%;
+    width: 47.5%;
+}
+
+.container-cima {
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+
+.container-cima .esquerda {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-cima .esquerda .cima {
+    height: 50%;
+    width: 100%;
+    background-color: #008080;
+}
+
+.container-cima .esquerda .baixo {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.container-cima .esquerda .baixo .esquerda {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.esquerda .baixo .esquerda .retangulo {
+    height: 32.5%;
+    width: 70%;
+    background-color: #ff0000;
+}
+
+.container-cima .esquerda .baixo .direita {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-cima .esquerda .baixo .direita .retangulo {
+    height: 77.5%;
+    width: 100%;
+    background-color: #ccff00;
+}
+
+.container-cima .direita {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.direita .cima {
+    height: 30%;
+    width: 82.5%;
+    background-color: #ff7f2a;
+}
+
+.direita .baixo {
+    height: 30%;
+    width: 82.5%;
+    background-color: #ff2adb;
+}
+
+.container-meio {
+    height: 25%;
+    background-color: #504d92;
+    display: flex;
+}
+
+.container-meio .esquerda {
+    height: 100%;
+    width: 33.3%;
+    background-color:#040080;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-meio .meio {
+    height: 100%;
+    width: 33.3%;
+    background-color:#040080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-meio .direita {
+    height: 100%;
+    width: 33.3%;
+    background-color:#040080;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.circulo {
+    height: 50%;
+    width: 32.5%;
+    border: solid #ca4545 7px;
+    border-radius: 100px;
+}
+
+.container-baixo {
+    height: 35%;
+    width: 100%;
+    display: flex;
+}
+
+.container-baixo .esquerda {
+    height: 100%;
+    width: 52.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}
+
+.container-baixo .esquerda .retangulo-azul {
+    height: 22.5%;
+    width: 100%;
+    background-color: #559cff;
+}
+
+.container-baixo .meio {
+    height: 100%;
+    width: 32.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.container-baixo .meio .retangulo-vermelho {
+    height: 22.5%;
+    width: 45%;
+    background-color:#ff0000;
+} 
+
+.container-baixo .direita {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}
+
+.container-baixo .direita .retangulo-vermelho {
+    height: 22.5%;
+    width: 100%;
+    background-color:#ff0000;
+}
+
+
+

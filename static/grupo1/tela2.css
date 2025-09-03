@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #808080;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 90%;
+    width: 47.5%;
+}
+
+.container-cima {
+    height: 40%;
+    display: flex;
+}
+
+.container-cima .esquerda {
+    height: 100%;
+    width: 77.5%;
+    background-color: #008080;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-cima .esquerda .retangulo {
+    height: 37.5%;
+    width: 70%;
+    background-color: #ccff00;
+}
+
+.container-cima .direita {
+    height: 100%;
+    width: 22.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.direita .cima {
+    height: 30%;
+    width: 65%;
+    background-color: #ff7f2a;
+}
+
+.direita .baixo {
+    height: 30%;
+    width: 65%;
+    background-color: #ff2adb;
+}
+
+.container-meio {
+    height: 25%;
+    background-color: #040080;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.circulo {
+    height: 55%;
+    width: 12.5%;
+    border: solid #ca4545 8px;
+    border-radius: 100px;
+}
+
+.container-baixo {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-baixo .cima {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-baixo .baixo {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.baixo .retangulo-vermelho {
+    margin-bottom: 5%;
+}
+
+.cima .retangulo-azul {
+    margin-top: 5%;
+}
+
+.cima .retangulo-vermelho {
+    margin-top: 3%;
+}
+
+.retangulo-azul {
+    height: 37.5%;
+    width: 55%;
+    background-color: #559cff;
+}
+
+.retangulo-vermelho {
+    height: 35%;
+    width: 13%;
+    background-color: #ff0000;
+}
+
+.container-baixo .baixo .dir {
+    margin-left: 42.5%;
+}

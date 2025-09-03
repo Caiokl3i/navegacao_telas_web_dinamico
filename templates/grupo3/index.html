@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='grupo3/index.css') }}">
+    <title>Homepage</title>
+</head>
+
+<body>
+        <nav>
+            <span class="title">Grupo 3</span>
+
+            <ul class="nav-links">
+                <li><a href="{{ url_for('grupos', grupo=0) }}">Grupo 0</a></li>
+                <li><a href="{{ url_for('grupos', grupo=1) }}">Grupo 1</a></li>
+                <li><a href="{{ url_for('grupos', grupo=2) }}">Grupo 2</a></li>
+            </ul>
+        </nav>
+
+    <section>
+        <main>
+            {% for i in range(1, 4) %}
+            <form action="{{ url_for('telas', grupo=3, tela=i) }}" method="get">
+                <button type="submit">Tela {{ i }}</button>
+            </form>
+            {% endfor %}
+        </main>
+    </section>
+</body>
+
+</html>

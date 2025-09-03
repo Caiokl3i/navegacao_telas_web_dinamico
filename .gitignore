@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.env
+.venv/
+
+# Flask
+instance/
+*.db
+
+# VS Code
+.vscode/
